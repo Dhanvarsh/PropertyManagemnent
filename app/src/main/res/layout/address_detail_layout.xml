@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:id="@+id/details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Address"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="10dp"
+                        android:padding="5dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/tv_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Address"
+                            android:textSize="15sp"
+                            android:layout_marginBottom="10dp"
+                            android:padding="5dp"
+                            android:textColor="@color/hint_color"
+                            />
+                        <EditText
+                            android:visibility="gone"
+                            android:id="@+id/et_address"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="text"
+                            android:hint="Address"
+                            android:textCursorDrawable="@drawable/edit_text_cursor"
+                            android:textColorHint="@color/hint_color"
+                            android:textSize="15sp"
+                            android:padding="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/black"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Land Mark"
+                        android:textSize="18sp"
+                        android:layout_marginBottom="10dp"
+                        android:padding="5dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/tv_landmark"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Land Mark"
+                            android:textSize="15sp"
+                            android:layout_marginBottom="10dp"
+                            android:padding="5dp"
+                            android:textColor="@color/hint_color"
+                            />
+                        <EditText
+                            android:visibility="gone"
+                            android:id="@+id/et_landmark"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:inputType="textEmailAddress"
+                            android:hint="Land Mark"
+                            android:textCursorDrawable="@drawable/edit_text_cursor"
+                            android:textColorHint="@color/hint_color"
+                            android:textSize="15sp"
+                            android:padding="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/black"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Flate No."
+                        android:textSize="18sp"
+                        android:padding="5dp"
+
+                        android:layout_marginBottom="10dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/tv_flat_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Flat No."
+                            android:textSize="15sp"
+                            android:padding="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/hint_color"
+                            />
+                        <EditText
+                            android:visibility="gone"
+                            android:id="@+id/et_flat_no"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Flate No."
+                            android:inputType="text"
+                            android:textColorHint="@color/hint_color"
+                            android:padding="5dp"
+                            android:textSize="15sp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/black"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Phone No."
+                        android:textSize="18sp"
+                        android:layout_marginBottom="10dp"
+                        android:padding="5dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:id="@+id/tv_phoneno"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Phone No."
+                            android:textSize="15sp"
+
+                            android:layout_marginBottom="10dp"
+                            android:padding="5dp"
+                            android:textColor="@color/hint_color"
+                            />
+                        <EditText
+                            android:visibility="gone"
+                            android:id="@+id/et_phoneNo"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Phone No."
+                            android:inputType="phone"
+                            android:maxLength="10"
+                            android:textColorHint="@color/hint_color"
+                            android:textSize="15sp"
+                            android:padding="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/black"
+                            android:textCursorDrawable="@drawable/edit_text_cursor"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/gray"/>
+
+                </LinearLayout>
+
+              <LinearLayout
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="30dp"
+                  android:layout_marginBottom="20dp">
+                    <Button
+                        android:id="@+id/btn_submit"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:text="Submit"
+                        android:textAllCaps="false"
+                        android:textColor="#fff"
+                        android:textSize="18sp"
+
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="30dp"
+                        android:background="@drawable/button_shape"
+                        />
+              </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+
+</android.support.v4.widget.NestedScrollView>
